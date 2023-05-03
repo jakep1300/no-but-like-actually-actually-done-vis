@@ -1,9 +1,9 @@
 let mic, fft;
 let particles = [];
 
-let numParticles = 10000; // Change the number of particles
-let particleShape = "triangle"; // Change the particle shape: "ellipse", "rect", or "triangle"
-let micSensitivity = 4; // Change the mic sensitivity, 1 is default, increase or decrease as needed
+let numParticles = 10; // Change the number of particles
+let particleShape = "rect"; // Change the particle shape: "ellipse", "rect", or "triangle"
+let micSensitivity = 9; // Change the mic sensitivity, 1 is default, increase or decrease as needed
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
